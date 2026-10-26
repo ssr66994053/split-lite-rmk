@@ -1,16 +1,17 @@
 # Documentation: https://rmk.rs/docs/configuration/
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "RMK Split_Lite_Mod"
+product_name = "RMK Split42_Lite"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "RMK"
-chip = "rp2040"
+chip = "esp32c3"
+usb_enable = false
 
 [matrix]
 # Row and col pins are mandatory
-row_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-col_pins = ["PIN_19", "PIN_20", "PIN_21"]
+row_pins = ["PIN_13", "PIN_19", "PIN_18", "PIN_12"]
+col_pins = ["PIN_9", "PIN_8", "PIN_4", "PIN_5", "PIN_11", "PIN_7", "PIN_6", "PIN_10", "PIN_3", "PIN_2", "PIN_1", "PIN_0"]
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
 
