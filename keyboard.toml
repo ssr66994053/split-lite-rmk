@@ -40,9 +40,9 @@ MT(Escape, LAlt)  Z  X  C      D                 V                        K     
 
 [[keymap.layer]] # layer 1
 keys = """
-No  Kc1  Kc2   Kc3     Kc4                      Kc5                             Kc6              Kc7              Kc8  Kc9    Kc0  No
-No  No   Home  Insert  WM(LeftBracket, LShift)  WM(RightBracket, LShift)        Left             Down             Up   Right  No   No
-No  No   End   Delete  LeftBracket              RightBracket                    WM(Kc9, RShift)  WM(Kc9, RShift)  No   No     No   No
+No  Kc1  Kc2   Kc3     Kc4                      Kc5                             Kc6              Kc7              Kc8   Kc9    Kc0  No
+No  No   Home  Insert  WM(LeftBracket, LShift)  WM(RightBracket, LShift)        Left             Down             Up    Right  No   No
+No  No   End   Delete  LeftBracket              RightBracket                    WM(Kc9, RShift)  WM(Kc0, RShift)  No    No     No   No
                Trns    No                       LShift                          No               No               Trns
 """
 
