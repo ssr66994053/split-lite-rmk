@@ -1,7 +1,7 @@
 # Documentation: https://rmk.rs/docs/configuration/
 [keyboard]
 name = "RMK Split_Lite_Mod"
-product_name = "RMK Split42_Lite"
+product_name = "RMK Split42_Lite_ColeMak_Mod-DH"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "RMK"
@@ -19,10 +19,10 @@ col_pins = ["PIN_9", "PIN_8", "PIN_4", "PIN_5", "PIN_11", "PIN_7", "PIN_6", "PIN
 rows = 4
 cols = 3
 map = """
-(0,0)  (0,1)  (0,2)  (0,3)  (0,4)  (0,5)  (0,6)  (0,7)  (0,8)  (0,9)  (0,10)  (0,11)
-(1,0)  (1,1)  (1,2)  (1,3)  (1,4)  (1,5)  (1,6)  (1,7)  (1,8)  (1,9)  (1,10)  (1,11)
-(2,0)  (2,1)  (2,2)  (2,3)  (2,4)  (2,5)  (2,6)  (2,7)  (2,8)  (2,9)  (2,10)  (2,11)
-                     (3,3)  (3,4)  (3,5)  (3,6)  (3,7)  (3,8)
+(0,0)  (0,1)  (0,2)  (0,3)  (0,4)  (0,5)        (0,6)  (0,7)  (0,8)  (0,9)  (0,10)  (0,11)
+(1,0)  (1,1)  (1,2)  (1,3)  (1,4)  (1,5)        (1,6)  (1,7)  (1,8)  (1,9)  (1,10)  (1,11)
+(2,0)  (2,1)  (2,2)  (2,3)  (2,4)  (2,5)        (2,6)  (2,7)  (2,8)  (2,9)  (2,10)  (2,11)
+                     (3,3)  (3,4)  (3,5)        (3,6)  (3,7)  (3,8)
 """
 
 [keymap]
@@ -32,16 +32,24 @@ layers = 3
 
 [[keymap.layer]] # layer 0
 keys = """
-A       B           C
-Kc1     Kc2         Kc3
-LCtrl   MO(1)       LShift
-OSL(1)  LT(2, Kc9)  LM(1, LShift | LGui)
+Tab               Q  W  F      B                 J                        L                  U          Y      Semicolon  Backspace
+KpMinus           A  R  S      T                 G                        M                  N          E      I          O          KpPlus
+MT(Escape, LAlt)  Z  X  C      D                 V                        K                  H          Slash  Backslash  Quote      MT(Grave, RGui)
+                        TG(1)  MT(Comma, LCtrl)  MT(Space, LShift)        MT(Enter, RShift)  LT(1, Dot) TG(2)
 """
 
 [[keymap.layer]] # layer 1
 keys = """
-_  TT(1)  TG(2)
-_  _      _
-_  _      _
-_  _      _
+No  Kc1  Kc2   Kc3     Kc4                      Kc5                             Kc6              Kc7              Kc8  Kc9    Kc0  No
+No  No   Home  Insert  WM(LeftBracket, LShift)  WM(RightBracket, LShift)        Left             Down             Up   Right  No   No
+No  No   End   Delete  LeftBracket              RightBracket                    WM(Kc9, RShift)  WM(Kc9, RShift)  No   No     No   No
+               Trns    No                       LShift                          No               No               Trns
+"""
+
+[[keymap.layer]] # layer 2
+keys = """
+F11  F1  F2  F3    F4  F5        F6  F7  F8    F9  F10  F12
+No   No  No  No    No  No        No  No  No    No  No   No
+No   No  No  No    No  No        No  No  No    No  No   No
+             Trns  No  No        No  No  Trns
 """
