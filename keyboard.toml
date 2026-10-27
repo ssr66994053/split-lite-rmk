@@ -6,7 +6,7 @@ vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "RMK"
 chip = "esp32c3"
-usb_enable = true
+usb_enable = false
 
 [ble]
 # Whether to enable BLE feature
