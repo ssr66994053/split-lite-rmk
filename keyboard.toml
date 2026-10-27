@@ -32,7 +32,7 @@ layers = 3
 
 [[keymap.layer]] # layer 0
 keys = """
-Tab               Q  W  F      B                 J                        L                  U          Y      Semicolon  Backspace
+Tab               Q  W  F      P                 B                        J                  L          U      Y          Semicolon  Backspace
 KpMinus           A  R  S      T                 G                        M                  N          E      I          O          KpPlus
 MT(Escape, LAlt)  Z  X  C      D                 V                        K                  H          Slash  Backslash  Quote      MT(Grave, RGui)
                         TG(1)  MT(Comma, LCtrl)  MT(Space, LShift)        MT(Enter, RShift)  LT(1, Dot) TG(2)
