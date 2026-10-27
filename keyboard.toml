@@ -12,6 +12,10 @@ usb_enable = false
 # Whether to enable BLE feature
 enabled = true
 
+[host]
+vial_enabled = true
+rynk_enabled = false
+
 [matrix]
 # Row and col pins are mandatory
 row_pins = ["GPIO13", "GPIO19", "GPIO18", "GPIO12"]
