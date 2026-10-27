@@ -8,6 +8,10 @@ manufacturer = "RMK"
 chip = "esp32c3"
 usb_enable = false
 
+[ble]
+# Whether to enable BLE feature
+enabled = true
+
 [matrix]
 # Row and col pins are mandatory
 row_pins = ["GPIO13", "GPIO19", "GPIO18", "GPIO12"]
