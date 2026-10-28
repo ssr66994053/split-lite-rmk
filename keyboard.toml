@@ -1,7 +1,7 @@
 # Documentation: https://rmk.rs/docs/configuration/
 [keyboard]
-name = "RMK Split_Lite_Mod"
-product_name = "RMK Split42_Lite_ColeMak_Mod-DH"
+name = "RMK Keyboard"
+product_name = "Split_Lite_Mod"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "RMK"
