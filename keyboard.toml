@@ -20,8 +20,8 @@ insecure = true
 
 [matrix]
 # Row and col pins are mandatory
-row_pins = ["GPIO9", "GPIO8", "GPIO4", "GPIO5", "GPIO7", "GPIO6", "GPIO10", "GPIO3"]
-col_pins = ["GPIO13", "GPIO19", "GPIO18", "GPIO12", "GPIO1", "GPIO0"]
+row_pins = ["GPIO0", "GPIO1", "GPIO3", "GPIO4", "GPIO5", "GPIO2", "GPIO12", "GPIO13"]
+col_pins = ["GPIO6", "GPIO7", "GPIO10", "GPIO18", "GPIO19", "GPIO8"]
 # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # row2col = true
 
