@@ -38,7 +38,7 @@ map = """
 [keymap]
 # One more layer than is defined below: the keymap references layer 2
 # (LT(2, ...), TG(2)), which stays empty until the user fills it in.
-layers = 3
+layers = 4
 
 [[keymap.layer]] # layer 0
 keys = """
@@ -58,8 +58,16 @@ No  No   End   Delete  LeftBracket              RightBracket                    
 
 [[keymap.layer]] # layer 2
 keys = """
-F11  F1  F2  F3    F4  F5        F6  F7  F8    F9  F10  F12
-No   No  No  No    No  No        No  No  No    No  No   No
-No   No  No  No    No  No        No  No  No    No  No   No
-             Trns  No  No        No  No  Trns
+F11  F1  F2  F3    F4  F5        F6  F7     F8    F9  F10  F12
+No   No  No  No    No  No        No  No     No    No  No   No
+No   No  No  No    No  No        No  No     No    No  No   No
+             Trns  No  No        No  TO(3)  Trns
+"""
+
+[[keymap.layer]] # layer 3
+keys = """
+No  No  No  No  No  No        No  No     No    No  No  No
+No  No  No  No  No  No        No  No     No    No  No  No
+No  No  No  No  No  No        No  No     No    No  No  No
+            No  No  No        No  TO(0)  No
 """
